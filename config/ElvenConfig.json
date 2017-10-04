@@ -1,0 +1,80 @@
+{
+    "calvert": {
+        "base-dir": "/home/charlie/",
+        "bootswatch": "cosmo",
+        "most-recent-date": "2017-04-06",
+        "site-dirs": [
+            "Git/CloudNotes/Prog272",
+            "Git/CloudNotes/Isit322",
+            "Git/writings/Elvenware/development/web/JavaScript",
+            "Git/writings/Elvenware/os/linux/",
+            "Git/CloudNotes/Assignments/CodeAcademy",
+            "Git/CloudNotes/Assignments",
+            "Git/CloudNotes/Tips",
+            "ElvenImages",
+            "Documents/AllTest",
+            "Documents/Markdown",
+            "Documents/AllSite"
+        ],
+        "destination-dirs": [
+            "/home/charlie/Git/charliecalvert.github.io/books/CloudNotes/Prog272/",
+            "/home/charlie/Git/charliecalvert.github.io/books/CloudNotes/Isit322/",
+            "/home/charlie/Git/charliecalvert.github.io/development/web/JavaScript/",
+            "/home/charlie/Git/charliecalvert.github.io/Os/Linux/",
+            "/home/charlie/Git/charliecalvert.github.io/books/CloudNotes/Assignments/CodeAcademy/",
+            "/home/charlie/Git/charliecalvert.github.io/books/CloudNotes/Assignments/",
+            "/home/charlie/Git/charliecalvert.github.io/books/CloudNotes/tips/",
+            "/var/www/html/Prog272/",
+            "/var/www/html/Isit322/",
+            "/home/charlie/Source/firebase/public/",
+            "/var/www/html/",
+            "/var/www/html/Assignments/"
+        ],
+        "destination-dirs-extra": [
+            {
+                "base": "/var/www/html/",
+                "extra": ""
+            },
+            {
+                "base": "/var/www/html/Assignments/",
+                "extra": "Assignments"
+            }
+        ]
+    },
+    "elvenImages": [
+        {
+            "name": "doc",
+            "baseDir": "The base directory where the images to be processed are found",
+            "cloudPath": "Base string found in markdown files",
+            "createSmallImages": true
+        },
+        {
+            "name": "california1",
+            "baseDir": "/var/www/html/images",
+            "cloudPath": "https://s3.amazonaws.com/s3bucket01.elvenware.com",
+            "createSmallImages": true
+        },
+        {
+            "name": "california2",
+            "baseDir": "/var/www/html/images",
+            "cloudPath": "/images",
+            "createSmallImages": true
+        },
+        {
+            "name": "california3",
+            "baseDir": "/var/www/html/images",
+            "cloudPath": "https://s3.amazonaws.com/s3bucket01.elvenware.com",
+            "createSmallImages": true
+        },
+        {
+            "name": "testImages",
+            "baseDir": "/home/charlie/Git/writings/Tech/Markdown",
+            "cloudPath": "/images",
+            "createSmallImages": true
+        }
+    ],
+    "selectedElvenImages": [
+        "california1",
+        "california2"
+    ]
+}

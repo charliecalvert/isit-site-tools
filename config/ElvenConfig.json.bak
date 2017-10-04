@@ -1,0 +1,274 @@
+{
+	"calvert": {
+		"base-dir": "/home/charlie/",
+		"site-dirs": [
+			"ElvenImages",
+			"Documents/AllTest",
+			"Git/CloudNotes/Assignments",
+			"Git/CloudNotes/Prog270",
+			"Git/CloudNotes/Isit322"
+		],
+		"destination-dirs": [
+			"/var/www/html/",
+			"/var/www/html/Assignments/",
+			"/var/www/html/Prog270/",
+			"/var/www/html/Isit322/"
+		],
+		"destination-dirs-extra": [
+			{
+				"base": "/var/www/html/",
+				"extra": ""
+			},
+			{
+				"base": "/var/www/html/Assignments/",
+				"extra": "Assignments"
+			}
+		]
+	},
+	"selectedElvenImages": [
+		"lopez-2016-03-29", "lopez-2016-03-30", "lopez-2016-03-31", "lopez-2016-04-01"
+	],
+	"elvenImages": [
+		{
+			"name": "doc",
+			"baseDir": "The base directory where the images to be processed are found",
+			"baseMarkdown": "Base string found in markdown files",
+			"createSmallImages": true
+		},
+		{
+			"name": "california1",
+			"baseDir": "/var/www/html/images",
+			"baseMarkdown": "https://s3.amazonaws.com/s3bucket01.elvenware.com",
+			"createSmallImages": true
+		},
+		{
+			"name": "california2",
+			"baseDir": "/var/www/html/images",
+			"baseMarkdown": "/images",
+			"createSmallImages": true
+		},
+		{
+			"name": "spainDirs",
+			"baseDir": "/home/charlie",
+			"baseMarkdown": "/images",
+			"createSmallImages": true
+		},
+		{
+			"name": "spainTest",
+			"baseDir": "/home/charlie/",
+			"baseMarkdown": "/images",
+			"createSmallImages": true
+		},
+		{
+			"name": "testImages",
+			"baseDir": "/home/charlie/Git/writings/Tech/Markdown",
+			"baseMarkdown": "/images",
+			"createSmallImages": true
+		},
+		{
+			"name": "2016-02",
+			"baseDir": "/home/charlie",
+			"baseMarkdown": "/images",
+			"createSmallImages": true
+		},
+		{
+			"name": "lopez-2016-03-29",
+			"baseDir": "/home/charlie/temp/lopez-folders",
+			"baseMarkdown": "https://s3.amazonaws.com/s3bucket01.elvenware.com/lopez",
+			"createSmallImages": false
+		},
+		{
+			"name": "lopez-2016-03-30",
+			"baseDir": "/home/charlie/temp/lopez-folders",
+			"baseMarkdown": "https://s3.amazonaws.com/s3bucket01.elvenware.com/lopez",
+			"createSmallImages": true
+		},
+		{
+			"name": "lopez-2016-03-31",
+			"baseDir": "/home/charlie/temp/lopez-folders",
+			"baseMarkdown": "https://s3.amazonaws.com/s3bucket01.elvenware.com/lopez",
+			"createSmallImages": true
+		},
+		{
+			"name": "lopez-2016-04-01",
+			"baseDir": "/home/charlie/temp/lopez-folders",
+			"baseMarkdown": "https://s3.amazonaws.com/s3bucket01.elvenware.com/lopez",
+			"createSmallImages": true
+		},
+		{
+			"name": "california333",
+			"baseDir": "/var/www/html/images",
+			"baseMarkdown": "https://s3.amazonaws.com/s3bucket01.elvenware.com",
+			"createSmallImages": true
+		},
+		{
+			"name": "italy-2014-09-03",
+			"baseDir": "/home/charlie/temp/SeagateFourGig/Pictures/2014-Italy",
+			"baseMarkdown": "https://s3.amazonaws.com/s3bucket01.elvenware.com/italy",
+			"createSmallImages": true
+		},
+		{
+			"name": "italy-2014-09-04a",
+			"baseDir": "/home/charlie/temp/SeagateFourGig/Pictures/2014-Italy",
+			"baseMarkdown": "https://s3.amazonaws.com/s3bucket01.elvenware.com/italy",
+			"createSmallImages": true
+		},
+		{
+			"name": "italy-2014-09-04b",
+			"baseDir": "/home/charlie/temp/SeagateFourGig/Pictures/2014-Italy",
+			"baseMarkdown": "https://s3.amazonaws.com/s3bucket01.elvenware.com/italy",
+			"createSmallImages": true
+		},
+		{
+			"name": "italy-2014-09-04c",
+			"baseDir": "/home/charlie/temp/SeagateFourGig/Pictures/2014-Italy",
+			"baseMarkdown": "https://s3.amazonaws.com/s3bucket01.elvenware.com/italy",
+			"createSmallImages": true
+		},
+		{
+			"name": "italy-2014-09-05a",
+			"baseDir": "/home/charlie/temp/SeagateFourGig/Pictures/2014-Italy",
+			"baseMarkdown": "https://s3.amazonaws.com/s3bucket01.elvenware.com/italy",
+			"createSmallImages": true
+		},
+		{
+			"name": "italy-2014-09-05b",
+			"baseDir": "/home/charlie/temp/SeagateFourGig/Pictures/2014-Italy",
+			"baseMarkdown": "https://s3.amazonaws.com/s3bucket01.elvenware.com/italy",
+			"createSmallImages": true
+		},
+		{
+			"name": "italy-2014-09-05c",
+			"baseDir": "/home/charlie/temp/SeagateFourGig/Pictures/2014-Italy",
+			"baseMarkdown": "https://s3.amazonaws.com/s3bucket01.elvenware.com/italy",
+			"createSmallImages": true
+		},
+		{
+			"name": "italy-2014-09-05d",
+			"baseDir": "/home/charlie/temp/SeagateFourGig/Pictures/2014-Italy",
+			"baseMarkdown": "https://s3.amazonaws.com/s3bucket01.elvenware.com/italy",
+			"createSmallImages": true
+		},
+		{
+			"name": "italy-2014-09-06",
+			"baseDir": "/home/charlie/temp/SeagateFourGig/Pictures/2014-Italy",
+			"baseMarkdown": "https://s3.amazonaws.com/s3bucket01.elvenware.com/italy",
+			"createSmallImages": true
+		},
+		{
+			"name": "italy-2014-09-07a",
+			"baseDir": "/home/charlie/temp/SeagateFourGig/Pictures/2014-Italy",
+			"baseMarkdown": "https://s3.amazonaws.com/s3bucket01.elvenware.com/italy",
+			"createSmallImages": true
+		},
+		{
+			"name": "italy-2014-09-07b",
+			"baseDir": "/home/charlie/temp/SeagateFourGig/Pictures/2014-Italy",
+			"baseMarkdown": "https://s3.amazonaws.com/s3bucket01.elvenware.com/italy",
+			"createSmallImages": true
+		},
+		{
+			"name": "italy-2014-09-08a",
+			"baseDir": "/home/charlie/temp/SeagateFourGig/Pictures/2014-Italy",
+			"baseMarkdown": "https://s3.amazonaws.com/s3bucket01.elvenware.com/italy",
+			"createSmallImages": true
+		},
+		{
+			"name": "italy-2014-09-08b",
+			"baseDir": "/home/charlie/temp/SeagateFourGig/Pictures/2014-Italy",
+			"baseMarkdown": "https://s3.amazonaws.com/s3bucket01.elvenware.com/italy",
+			"createSmallImages": true
+		},
+		{
+			"name": "italy-2014-09-09",
+			"baseDir": "/home/charlie/temp/SeagateFourGig/Pictures/2014-Italy",
+			"baseMarkdown": "https://s3.amazonaws.com/s3bucket01.elvenware.com/italy",
+			"createSmallImages": true
+		},
+		{
+			"name": "italy-2014-09-10a",
+			"baseDir": "/home/charlie/temp/SeagateFourGig/Pictures/2014-Italy",
+			"baseMarkdown": "https://s3.amazonaws.com/s3bucket01.elvenware.com/italy",
+			"createSmallImages": true
+		},
+		{
+			"name": "italy-2014-09-10b",
+			"baseDir": "/home/charlie/temp/SeagateFourGig/Pictures/2014-Italy",
+			"baseMarkdown": "https://s3.amazonaws.com/s3bucket01.elvenware.com/italy",
+			"createSmallImages": true
+		},
+		{
+			"name": "italy-2014-09-11",
+			"baseDir": "/home/charlie/temp/SeagateFourGig/Pictures/2014-Italy",
+			"baseMarkdown": "https://s3.amazonaws.com/s3bucket01.elvenware.com/italy",
+			"createSmallImages": true
+		},
+		{
+			"name": "italy-2014-09-12a",
+			"baseDir": "/home/charlie/temp/SeagateFourGig/Pictures/2014-Italy",
+			"baseMarkdown": "https://s3.amazonaws.com/s3bucket01.elvenware.com/italy",
+			"createSmallImages": true
+		},
+		{
+			"name": "italy-2014-09-12b",
+			"baseDir": "/home/charlie/temp/SeagateFourGig/Pictures/2014-Italy",
+			"baseMarkdown": "https://s3.amazonaws.com/s3bucket01.elvenware.com/italy",
+			"createSmallImages": true
+		},
+		{
+			"name": "japan-2013-06-19",
+			"baseDir": "/home/charlie/temp/SeagateFourGig/Pictures/2013-Japan",
+			"baseMarkdown": "https://s3.amazonaws.com/s3bucket01.elvenware.com/japan",
+			"createSmallImages": true
+		},
+		{
+			"name": "japan-2013-06-20",
+			"baseDir": "/home/charlie/temp/SeagateFourGig/Pictures/2013-Japan",
+			"baseMarkdown": "https://s3.amazonaws.com/s3bucket01.elvenware.com/japan",
+			"createSmallImages": true
+		},
+		{
+			"name": "japan-2013-06-21",
+			"baseDir": "/home/charlie/temp/SeagateFourGig/Pictures/2013-Japan",
+			"baseMarkdown": "https://s3.amazonaws.com/s3bucket01.elvenware.com/japan",
+			"createSmallImages": true
+		},
+		{
+			"name": "japan-2013-06-22",
+			"baseDir": "/home/charlie/temp/SeagateFourGig/Pictures/2013-Japan",
+			"baseMarkdown": "https://s3.amazonaws.com/s3bucket01.elvenware.com/japan",
+			"createSmallImages": true
+		},
+		{
+			"name": "idaho-2016-07-23",
+			"baseDir": "/home/charlie/temp/SeagateFourGig/Pictures/2016-Idaho",
+			"baseMarkdown": "https://s3.amazonaws.com/s3bucket01.elvenware.com/idaho",
+			"createSmallImages": true
+		},
+		{
+			"name": "idaho-2016-07-24",
+			"baseDir": "/home/charlie/temp/SeagateFourGig/Pictures/2016-Idaho",
+			"baseMarkdown": "https://s3.amazonaws.com/s3bucket01.elvenware.com/idaho",
+			"createSmallImages": true
+		},
+		{
+			"name": "idaho-2016-07-25",
+			"baseDir": "/home/charlie/temp/SeagateFourGig/Pictures/2016-Idaho",
+			"baseMarkdown": "https://s3.amazonaws.com/s3bucket01.elvenware.com/idaho",
+			"createSmallImages": true
+		},
+		{
+			"name": "idaho-2016-07-26",
+			"baseDir": "/home/charlie/temp/SeagateFourGig/Pictures/2016-Idaho",
+			"baseMarkdown": "https://s3.amazonaws.com/s3bucket01.elvenware.com/idaho",
+			"createSmallImages": true
+		},
+		{
+			"name": "suiattle-2016-07",
+			"baseDir": "/home/charlie/temp/SeagateFourGig/Pictures/2016-Suiattle",
+			"baseMarkdown": "https://s3.amazonaws.com/s3bucket01.elvenware.com/suiattle",
+			"createSmallImages": true
+		}
+	]
+}
+

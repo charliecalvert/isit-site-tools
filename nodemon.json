@@ -1,0 +1,8 @@
+{
+  "verbose": true,
+  "ignore": ["*.md", "config/*"],
+  "execMap": {
+    "rb": "ruby",
+    "pde": "processing --sketch={{pwd}} --run"
+  }
+}

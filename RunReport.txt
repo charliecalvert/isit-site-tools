@@ -1,0 +1,37 @@
+{
+    "result": "success",
+    "destinationDir": "/home/charlie/Git/charliecalvert.github.io/development/web/JavaScript/",
+    "directories": [
+        "/home/charlie/Git/writings/Elvenware/development/web/JavaScript"
+    ],
+    "masterListOfNames": [
+        "* [Summary.html](Summary.html)"
+    ],
+    "htmlFilesWritten": [
+        "/home/charlie/Git/charliecalvert.github.io/development/web/JavaScript/Angular.html",
+        "/home/charlie/Git/charliecalvert.github.io/development/web/JavaScript/DataStructures.html",
+        "/home/charlie/Git/charliecalvert.github.io/development/web/JavaScript/ElvenUtilities.html",
+        "/home/charlie/Git/charliecalvert.github.io/development/web/JavaScript/Functional.html",
+        "/home/charlie/Git/charliecalvert.github.io/development/web/JavaScript/GettingStarted.html",
+        "/home/charlie/Git/charliecalvert.github.io/development/web/JavaScript/HandleBars.html",
+        "/home/charlie/Git/charliecalvert.github.io/development/web/JavaScript/JQueryBasic.html",
+        "/home/charlie/Git/charliecalvert.github.io/development/web/JavaScript/JavaScriptBasics.html",
+        "/home/charlie/Git/charliecalvert.github.io/development/web/JavaScript/JavaScriptCourseware.html",
+        "/home/charlie/Git/charliecalvert.github.io/development/web/JavaScript/JavaScriptFunctions.html",
+        "/home/charlie/Git/charliecalvert.github.io/development/web/JavaScript/JavaScriptModules.html",
+        "/home/charlie/Git/charliecalvert.github.io/development/web/JavaScript/JavaScriptObjects.html",
+        "/home/charlie/Git/charliecalvert.github.io/development/web/JavaScript/JavaScriptPatterns.html",
+        "/home/charlie/Git/charliecalvert.github.io/development/web/JavaScript/JavaScriptReact.html",
+        "/home/charlie/Git/charliecalvert.github.io/development/web/JavaScript/JavaScriptReactMenu.html",
+        "/home/charlie/Git/charliecalvert.github.io/development/web/JavaScript/JavaScriptWebFrameworks.html",
+        "/home/charlie/Git/charliecalvert.github.io/development/web/JavaScript/JsonBasics.html",
+        "/home/charlie/Git/charliecalvert.github.io/development/web/JavaScript/NodeInstall.html",
+        "/home/charlie/Git/charliecalvert.github.io/development/web/JavaScript/NodeJade.html",
+        "/home/charlie/Git/charliecalvert.github.io/development/web/JavaScript/NodeJs.html",
+        "/home/charlie/Git/charliecalvert.github.io/development/web/JavaScript/NodePackages.html",
+        "/home/charlie/Git/charliecalvert.github.io/development/web/JavaScript/Summary.html",
+        "/home/charlie/Git/charliecalvert.github.io/development/web/JavaScript/WritingSimpleCode.html",
+        "/home/charlie/Git/charliecalvert.github.io/development/web/JavaScript/index.html",
+        "/home/charlie/Git/charliecalvert.github.io/development/web/JavaScript/master-list.html"
+    ]
+}

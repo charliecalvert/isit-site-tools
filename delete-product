@@ -1,0 +1,7 @@
+#! /bin/bash
+
+# rm ~/ElvenImages/lopez-2016-0?-??.md
+# rm -v ~/ElvenImages/all-images-lopez-2016-0?-??.json
+
+rm ~/ElvenImages/california?.md
+rm -v ~/ElvenImages/all-images-california?.json

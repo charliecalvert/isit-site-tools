@@ -1,0 +1,49 @@
+{
+    "name": "isit-site-tools",
+    "version": "1.0.0",
+    "description": "Elven Site Tools for Elven Sites",
+    "main": "index.js",
+    "scripts": {
+        "start": "node test.js",
+        "test": "nodemon jasmine-runner.js",
+        "demoImages": "node MakeImagesTest.js",
+        "demoDebugImages": "node --inspect-brk MakeImagesTest.js",
+        "demoImagesBasics": "DEBUG=elflog:basics node MakeImagesTest.js",
+        "demoImagesA": "DEBUG=elflog node MakeImagesTest.js",
+        "demoMarkdown": "node MarkdownToHtmlTest",
+        "infoLog": "ELFNAME=elf-all ELF_NAME_LEVEL=5 node MakeImagesTest.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "bitbucket"
+    },
+    "keywords": [
+        "markdown"
+    ],
+    "author": "Charlie Calvert",
+    "license": "MIT",
+    "dependencies": {
+        "elven-code": "^4.1.7",
+        "highlight.js": "^9.12.0",
+        "jsonschema": "^1.2.0",
+        "marked": "^0.3.6",
+        "mkdirp": "^0.5.1",
+        "moment": "^2.18.1",
+        "pug": "^2.0.0-rc.3",
+        "python-shell": "^0.4.0",
+        "sharp": "^0.18.2",
+        "walk": "^2.3.9"
+    },
+    "devDependencies": {
+        "debug": "^3.0.1",
+        "grunt": "~1.0.1",
+        "grunt-contrib-clean": "^1.1.0",
+        "grunt-contrib-jshint": "~1.1.0",
+        "grunt-jsbeautifier": "^0.2.13",
+        "grunt-jscs": "^3.0.1",
+        "jasmine": "^2.8.0",
+        "jasmine-core": "^2.8.0",
+        "jasmine-spec-reporter": "^4.2.1",
+        "jshint-stylish": "^2.2.1"
+    }
+}
