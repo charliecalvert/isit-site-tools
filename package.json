@@ -1,7 +1,7 @@
 {
     "name": "isit-site-tools",
     "version": "1.0.0",
-    "description": "Elven Site Tools for Elven Sites",
+    "description": "Isit tooling for building web sites",
     "main": "index.js",
     "scripts": {
         "start": "node test.js",
