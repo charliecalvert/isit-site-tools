@@ -8,7 +8,7 @@ const setupMarked = require('./setup-marked');
 const fs = require('fs');
 const utils = require('./utils');
 const mkdirp = require('mkdirp');
-const elfLog = require('elven-code').elfLog('private-make-page');
+const elfLog = require('isit-code-calvert').elfLog('private-make-page');
 elfLog.elfName = 'make-page';
 
 let masterListOfNames = [];

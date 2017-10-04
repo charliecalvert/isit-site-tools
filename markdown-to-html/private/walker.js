@@ -8,7 +8,7 @@ const walk = require('walk');
 const fs = require('fs');
 const path = require('path');
 const makePage = require('./make-page');
-const elfLog = require('elven-code').elfLog('private-walker');
+const elfLog = require('isit-code-calvert').elfLog('private-walker');
 const moment = require('moment');
 
 function walker() {

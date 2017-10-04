@@ -6,8 +6,8 @@ describe('Create directories for each day we took photos', function() {
 
     'use strict';
 
-    const elfConfig = require('elven-code').elfConfig;
-    const elfLog = require('elven-code').elfLog('test-daily-image-directories');
+    const elfConfig = require('isit-code-calvert').elfConfig;
+    const elfLog = require('isit-code-calvert').elfLog('test-daily-image-directories');
     elfLog.setLevel(elfLog.logLevelDetails);
     const configurationSettings = require('../image-help/index').configSettings;
     const createDirectories = require('../image-help/index').createDirectories;

@@ -19,9 +19,9 @@ describe('Test Make Markdown Suite', function() {
     const ImagesList = require('../image-help/index').ImagesList;
     const configureTests = require('./configure-tests');
     const configSettings = require('../image-help/make-markdown/misc/config-settings');
-    const elfLog = require('elven-code').elfLog('test-make-markdown');
+    const elfLog = require('isit-code-calvert').elfLog('test-make-markdown');
     elfLog.setLevel(elfLog.logLevelDetails);
-    const elfUtils = require('elven-code').elfUtils;
+    const elfUtils = require('isit-code-calvert').elfUtils;
     jasmine.DEFAULT_TIMEOUT_INTERVAL = 2000;
 
     function deleteExistingMarkdownFiles() {

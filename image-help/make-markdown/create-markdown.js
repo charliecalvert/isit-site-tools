@@ -5,12 +5,12 @@
 const CreateMarkdown = (function() {
     'use strict';
 
-    const elfUtils = require('elven-code').elfUtils;
+    const elfUtils = require('isit-code-calvert').elfUtils;
     const makeReport = require('./reports/make-report');
     const siteUtils = require('../utilities');
     const errorMessages = require('../error-messages');
 
-    const walker = require('elven-code').walker;
+    const walker = require('isit-code-calvert').walker;
     let report;
 
     function CreateMarkdown() {

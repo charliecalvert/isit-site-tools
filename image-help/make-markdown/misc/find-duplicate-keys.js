@@ -1,5 +1,5 @@
 const PythonShell = require('python-shell');
-// const elfLog = require('elven-code').elfLog('find-duplicate-keys');
+// const elfLog = require('isit-code-calvert').elfLog('find-duplicate-keys');
 
 function findDuplicateKeys(callback) {
     // console.log('findDuplicateKeys called');

@@ -1,7 +1,7 @@
 const fs = require('fs');
-const elfLog = require('elven-code').elfLog('create-markdown');
+const elfLog = require('isit-code-calvert').elfLog('create-markdown');
 const walkCore = require('../walk-core');
-const utils = require('elven-code').elfUtils;
+const utils = require('isit-code-calvert').elfUtils;
 
 function makeReportStructure(configSummary, destinationDir, details, masterListOfNames, htmlFilesWritten) {
     return {

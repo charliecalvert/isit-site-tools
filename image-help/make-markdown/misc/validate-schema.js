@@ -4,7 +4,7 @@
 
 // Test the ElvenConfig.json file
 // BOTH THIS and switch-config-to-array.py do the same thing and work
-// const elfLog = require('elven-code').elfLog('validate-schema');
+// const elfLog = require('isit-code-calvert').elfLog('validate-schema');
 const fs = require('fs');
 const Validator = require('jsonschema').Validator;
 const v = new Validator();

@@ -1,7 +1,7 @@
 const DeleteMarkdown = (function() {
     'use strict';
 
-    const elfUtils = require('elven-code').elfUtils;
+    const elfUtils = require('isit-code-calvert').elfUtils;
 
     function DeleteMarkdown() { }
 

@@ -2,7 +2,7 @@
  * Created by charlie on 3/3/16.
  */
 
-const elfUtils = require('elven-code').elfUtils;
+const elfUtils = require('isit-code-calvert').elfUtils;
 const path = require('path');
 const fs = require('fs');
 

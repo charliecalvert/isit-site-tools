@@ -7,8 +7,8 @@ const MakeMarkdown = (function() {
 
     const createMarkdown = require('./create-markdown');
     //var deleteMarkdown = require('./delete-markdown');
-    // var elfLog = require('elven-code').elfLog('make-markdown');
-    const elvenCode = require('elven-code');
+    // var elfLog = require('isit-code-calvert').elfLog('make-markdown');
+    const elvenCode = require('isit-code-calvert');
     const elfLog = elvenCode.elfLog('make-markdown');
 
     function MakeMarkdown() {

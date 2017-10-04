@@ -2,11 +2,11 @@
  * Created by charlie on 7/21/16.
  */
 
-const elfConfig = require('elven-code').elfConfig;
+const elfConfig = require('isit-code-calvert').elfConfig;
 elfConfig.useLocalConfig = true;
-const elfUtils = require('elven-code').elfUtils;
+const elfUtils = require('isit-code-calvert').elfUtils;
 const ElfSelectedErrorObject = require('./ElfSelectedObjectError');
-// const elfLog = require('elven-code').elfLog('config-settings');
+// const elfLog = require('isit-code-calvert').elfLog('config-settings');
 
 function ConfigSettings() {
     'use strict';
