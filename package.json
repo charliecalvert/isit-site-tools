@@ -28,13 +28,13 @@
         "marked": "^0.3.6",
         "mkdirp": "^0.5.1",
         "moment": "^2.18.1",
-        "pug": "^2.0.0-rc.3",
+        "pug": "^2.0.0-rc.4",
         "python-shell": "^0.4.0",
-        "sharp": "^0.18.2",
+        "sharp": "^0.18.4",
         "walk": "^2.3.9"
     },
     "devDependencies": {
-        "debug": "^3.0.1",
+        "debug": "^3.1.0",
         "grunt": "~1.0.1",
         "grunt-contrib-clean": "^1.1.0",
         "grunt-contrib-jshint": "~1.1.0",
