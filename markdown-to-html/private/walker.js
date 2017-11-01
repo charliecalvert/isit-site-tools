@@ -118,21 +118,17 @@ walker.getDirectories = function(report) {
 walker.makePage = function(details, callback) {
     'use strict';
 
-    elfLog.nano('Directories found:' + JSON.stringify(details.directories, null, 4));
     details.callback = callback;
     makePage.init();
 
-    /*
-        console.log("About to MISSING SUMMARIES", details.report.missingSummaries);
-
-        details.report.missingSummaries.forEach(function(directory, index) {
-            makePage.writeMissingSummary(directory, details);
+    // if we found nothing then return nothing
+    if (details.directories.length === 0) {
+        callback([],[])
+    } else {
+        details.directories.forEach(function(directory, index) {
+            makePage.run(directory, index, details);
         });
-    */
-
-    details.directories.forEach(function(directory, index) {
-        makePage.run(directory, index, details);
-    });
+    }
 
 };
 
