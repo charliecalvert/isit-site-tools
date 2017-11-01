@@ -60,7 +60,7 @@ module.exports = function (configSummary, directoryIndex) {
                     const details = createDetails(report, directoryToWalk, destinationDir, highlight, bootswatch);
                     pageMaker(details, configSummary, destinationDir)
                         .then(resolve)
-                        .catch(rejsect)
+                        .catch(reject)
                 });
             }
         });
