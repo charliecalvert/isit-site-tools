@@ -17,7 +17,8 @@ function runConfig(user, siteDirsOffset, useLocalConfig) {
         config.loadAsync()
             .then(function(configuration) {
                 createMarkdown(configuration[user], siteDirsOffset)
-                    .then(resolve);
+                    .then(resolve)
+                    .catch(reject)
             })
             .catch(function(err) {
                 throw err

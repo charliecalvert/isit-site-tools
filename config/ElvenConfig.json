@@ -3,6 +3,7 @@
         "base-dir": "/home/charlie/",
         "bootswatch": "cosmo",
         "most-recent-date": "2017-04-06",
+        "highlight": true,
         "site-dirs": [
             "Git/CloudNotes/Prog272",
             "Git/CloudNotes/Isit322",
