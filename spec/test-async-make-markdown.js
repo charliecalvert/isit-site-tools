@@ -2,7 +2,7 @@
  * Created by charlie on 3/7/16.
  */
 
-describe('Test Make Markdown Suite', function() {
+describe('Test Async Make Markdown Suite', function() {
     'use strict';
 
     const expected = [
@@ -34,7 +34,7 @@ describe('Test Make Markdown Suite', function() {
         results.then(function(data) {
             elfLog.nano('BE ERROR DELETE SUCCESS', data);
         }).catch(function(err) {
-            throw new Error(err);
+            //console.log(err);
         });
     });
 
@@ -48,7 +48,7 @@ describe('Test Make Markdown Suite', function() {
         results.then(function(data) {
             elfLog.nano('IT ERROR DELETE SUCCESS', data);
         }).catch(function(err) {
-            throw err;
+            //console.log(err);
         });
     });
 
@@ -67,9 +67,8 @@ describe('Test Make Markdown Suite', function() {
 
     it('sets selected elven images', function() {
         configSettings.setSelectedElvenImages(configureTests.IMAGE_CONFIG_NAMES)
-            .then(function(result) {
-                console.log(result);
-                expect(true).toBe(true);
+            .then(function(returnValue) {
+                expect(returnValue.result).toBe('success');
             });
     });
 
@@ -91,9 +90,11 @@ describe('Test Make Markdown Suite', function() {
         function testToExist() {
             const fileName = '/home/charlie/ElvenImages/california2.md';
             if (elfUtils.fileExists(fileName)) {
-                console.log('FILENAME EXISTS', fileName);
+                // The file should not exist
+                expect(true).toBe(false);
             } else {
-                console.log('FILE DOES NOT EXISTS', fileName);
+                // We expect to end up here
+                expect(true).toBe(true);
             }
         }
 
@@ -109,7 +110,6 @@ describe('Test Make Markdown Suite', function() {
     });
 
     it('creates and then deletes markdownFile', function(done) {
-        console.log('DELETES MAKEDOWN');
         elfLog.nano('Deletes markdownfile');
         const imagesList = new ImagesList();
         imagesList.getImagesList()
@@ -117,8 +117,16 @@ describe('Test Make Markdown Suite', function() {
             .then(reportChecker)
             .then(deleteMarkdown.delete)
             .catch(function(err) {
-                console.log(err)
+                // If we end up here, we failed to create and delete
+                // Delete throws an error if it can't find a file to delete.
+                expect(true).toBe(false);
+                done(); //throw new Error(err);
             })
-            .then(done);
+            .then(function() {
+                // If we end up here, we succeeded in creating and deleting
+                // Delete throws an error if it can't find a file to delete.
+                expect(true).toBe(true);
+                done();
+            });
     });
 });

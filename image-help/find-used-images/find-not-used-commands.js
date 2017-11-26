@@ -17,7 +17,7 @@ const FindNotUsedCommands = (function() {
     function findNotUsed(settings, allImages, imagesUsed) {
         elfLog.nano("FIND NOT USED CALLED");
         const imagesNotUsed = elfUtils.arrayDifference(allImages, imagesUsed);
-        elfLog.emptyLine();
+        //elfLog.emptyLine();
         elfLog.nano('Images Not Used:\n', JSON.stringify(imagesNotUsed, null, 4));
         let commands = '#! /bin/bash\n\n';
         imagesNotUsed.forEach(function(imageName) {
@@ -29,7 +29,7 @@ const FindNotUsedCommands = (function() {
 
     FindNotUsedCommands.prototype.getCommands = function(settings, allImages, imagesUsed) {
         elfLog.info('All Images:\n', JSON.stringify(allImages, null, 4));
-        elfLog.emptyLine();
+        //elfLog.emptyLine();
         elfLog.minorDetails('Images Used:\n', JSON.stringify(imagesUsed, null, 4));
         return findNotUsed(settings, allImages, imagesUsed);
     };
