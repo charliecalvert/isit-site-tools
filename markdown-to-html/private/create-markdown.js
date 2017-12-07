@@ -31,7 +31,7 @@ function pageMaker(details, configSummary, destinationDir) {
     return new Promise(function(resolve, reject) {
         walkCore.makePage(details, function(masterListOfNames, htmlFilesWritten) {
             const report = makeReportStructure(configSummary, destinationDir, details, masterListOfNames, htmlFilesWritten);
-            const reportName = 'RunReport.txt';
+            const reportName = destinationDir + 'RunReport.txt';
             utils.writeFile(reportName, JSON.stringify(report, null, 4), function() {
                 elfLog.info('Wrote report to: ', reportName);
                 resolve(report);

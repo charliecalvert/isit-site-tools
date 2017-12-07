@@ -65,6 +65,7 @@ const CreateMarkdown = (function() {
                     success: false,
                     fileName: selectedConfigObject.markdownFileWithImages,
                     error: 'File exists',
+                    browserMessages: errorMessages.browserMarkdownFileExists(selectedConfigObject.markdownFileWithImages),
                     consoleMessage: errorMessages.markdownFileExists(selectedConfigObject.markdownFileWithImages)
                 });
             }
