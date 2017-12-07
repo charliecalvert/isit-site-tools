@@ -1,4 +1,11 @@
 module.exports = {
+    browserMarkdownFileExists: function(fileName) {
+        return {
+            error: 'The destination file already exists',
+            fileName: fileName,
+            result: 'Doing nothing'
+        }
+    },
     markdownFileExists: function(fileName) {
         const divider = '\n***********************************\n';
         let fileExists = divider;
