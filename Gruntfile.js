@@ -24,27 +24,12 @@ module.exports = function(grunt) {
             }
         },
 
-        jscs: {
-            src: '**/*.js',
-            options: {
-                config: '.jscsrc'
-            }
-        },
 
-        'jsbeautifier': {
-            files: ['**/*.js', '!**/node_modules/**', '!**/components/**'],
-            options: {
-                'indentSize': 4
-            }
-        },
 
     });
 
     grunt.loadNpmTasks('grunt-contrib-clean');
     grunt.loadNpmTasks('grunt-contrib-jshint');
-    grunt.loadNpmTasks('grunt-jscs');
-    grunt.loadNpmTasks('grunt-jsbeautifier');
-    grunt.registerTask('beautify', ['jsbeautifier']);
-    grunt.registerTask('check', ['beautify', 'jscs', 'jshint']);
+    grunt.registerTask('check', ['jshint']);
     grunt.registerTask('test', ['jshint', 'karma']);
 };
