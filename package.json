@@ -23,24 +23,21 @@
     "author": "Charlie Calvert",
     "license": "MIT",
     "dependencies": {
-        "highlight.js": "^9.12.0",
+        "highlight.js": "^9.15.9",
         "jsonschema": "^1.2.4",
-        "marked": "^0.5.1",
+        "marked": "^0.7.0",
         "mkdirp": "^0.5.1",
-        "moment": "^2.22.2",
-        "pug": "^2.0.3",
-        "python-shell": "^1.0.6",
-        "sharp": "^0.21.0",
+        "moment": "^2.24.0",
+        "pug": "^2.0.4",
+        "python-shell": "^1.0.8",
+        "sharp": "^0.23.0",
         "walk": "^2.3.14"
     },
     "devDependencies": {
-        "debug": "^4.1.0",
-        "grunt": "~1.0.3",
-        "grunt-contrib-clean": "^2.0.0",
-        "grunt-contrib-jshint": "~2.0.0",
-        "jasmine": "^3.2.0",
-        "jasmine-core": "^3.2.1",
-        "jasmine-spec-reporter": "^4.2.1",
-        "jshint-stylish": "^2.2.1"
+        "debug": "^4.1.1",
+        "grunt": "~1.0.4",
+        "jasmine": "^3.4.0",
+        "jasmine-core": "^3.4.0",
+        "jasmine-spec-reporter": "^4.2.1"
     }
 }

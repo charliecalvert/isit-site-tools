@@ -28,8 +28,5 @@ module.exports = function(grunt) {
 
     });
 
-    grunt.loadNpmTasks('grunt-contrib-clean');
-    grunt.loadNpmTasks('grunt-contrib-jshint');
-    grunt.registerTask('check', ['jshint']);
-    grunt.registerTask('test', ['jshint', 'karma']);
+    grunt.registerTask('test', ['karma']);
 };
