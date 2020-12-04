@@ -23,7 +23,7 @@
     "author": "Charlie Calvert",
     "license": "MIT",
     "dependencies": {
-        "highlight.js": "^9.15.9",
+        "highlight.js": "^10.4.1",
         "jsonschema": "^1.2.4",
         "marked": "^0.7.0",
         "mkdirp": "^0.5.1",
